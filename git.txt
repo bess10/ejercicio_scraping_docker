@@ -12,5 +12,7 @@ git add src/controllers/controllers.js
 git commit -m "añadiendo fichero js aqui va la logica de la app"
 git add src/routes/routes.js
 git commit -m "añadiendo fichero js donde estan las rutas de la app"
+git status
+
 
 
