@@ -1,11 +1,11 @@
 //importamos los modulos necesarios
-import  cheerio from 'cheerio';
-import axios from 'axios';
+const cheerio = require('cheerio');
+const axios = require('axios');
 //guardamos en una constante la url
 const URL = 'https://webscraper.io/test-sites/e-commerce/allinone/computers';
 
 //exportamos la función que se utilizara en la ruta productos 
-export const scraping = (req, res) => {
+const scraping = (req, res) => {
     axios(URL)
     .then((response) => {
         const html = response.data;
@@ -29,3 +29,5 @@ export const scraping = (req, res) => {
     })
     .catch((err) => console.log(err));
 }
+
+module.exports = scraping;
