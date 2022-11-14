@@ -8,4 +8,9 @@ git add .gitignore
 git commit -m "añadiendo fichero gitignore"
 git add src/index.js
 git commit -m "añadiendo fichero js aqui se arranca el servidor"
-git add 
+git add src/controllers/controllers.js
+git commit -m "añadiendo fichero js aqui va la logica de la app"
+git add src/routes/routes.js
+git commit -m "añadiendo fichero js donde estan las rutas de la app"
+
+
