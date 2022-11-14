@@ -21,6 +21,11 @@ git add src/public/js/app.js
 git commit -m "añadiendo fichero js"
 git add git.txt
 git commit -m "añadiendo fichero txt"
+git status
+git branch -M main
+git remote add origin https://github.com/bess10/ejercicio_scraping_docker.git
+git push -u origin main
+
 
 
 
