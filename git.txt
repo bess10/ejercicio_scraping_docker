@@ -1,0 +1,11 @@
+git init
+git add package.json
+git commit -m "añadiendo package.json"
+git status
+git add package-lock.json
+git commit -m "añadiendo package-lock.jsona"
+git add .gitignore
+git commit -m "añadiendo fichero gitignore"
+git add src/index.js
+git commit -m "añadiendo fichero js aqui se arranca el servidor"
+git add 
