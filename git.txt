@@ -13,6 +13,17 @@ git commit -m "añadiendo fichero js aqui va la logica de la app"
 git add src/routes/routes.js
 git commit -m "añadiendo fichero js donde estan las rutas de la app"
 git status
+git add src/public/index.html
+git commit -m "añadiendo index.html"
+git add src/public/css/style.css
+git commit -m "añadiendo fichero css"
+git add src/public/js/app.js
+git commit -m "añadiendo fichero js"
+git add git.txt
+git commit -m "añadiendo fichero txt"
+
+
+
 
 
 
